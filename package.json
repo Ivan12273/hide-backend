@@ -1,0 +1,35 @@
+{
+  "name": "hide-rest",
+  "version": "1.0.0",
+  "description": "HIDE API REST BY ROOSTER SOFTWARE",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout=10000 --exit",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://cas12273@bitbucket.org/rooster-software/hide-backend.git"
+  },
+  "author": "ROOSTER SOFTWARE",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/rooster-software/hide-backend#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "html-pdf": "^2.2.0",
+    "json2csv": "^5.0.5",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.12",
+    "mongoose-unique-validator": "^2.0.3",
+    "nodemailer": "^6.4.16"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^8.2.1",
+    "nodemon": "^2.0.6"
+  }
+}
