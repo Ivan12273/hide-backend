@@ -1,0 +1,6 @@
+Los accesos para el administrador son los siguientes:
+
+*email: admin@hide.com
+*password": 11locos.
+
+El nombre de la base de datos es: hidedb (para configurar el port, el nombre de la base datos y demás elementos, entrar a la carpeta config y modificar el archivo config.js)

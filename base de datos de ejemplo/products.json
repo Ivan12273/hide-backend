@@ -1,0 +1,1 @@
+{"_id":{"$oid":"60494c95d20fe524e481621e"},"stock":{"$numberInt":"2"},"name":"Papas","description":"Sabor chile y limón","price":{"$numberInt":"5"},"__v":{"$numberInt":"0"}}
