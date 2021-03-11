@@ -8,12 +8,40 @@ HIDE es un sistema de software con el propósito de ayudar a las personas involu
 - [Instrucciones de uso](#instrucciones-de-uso)
 - [Roles y permisos](#roles-y-permisos)
 - [Peticiones](#peticiones)
-  - [Users](#users)
-  - [Products](#products)  
-  - [Clients](#clients) 
-  - [Orders](#orders) 
+  - [Usuarios](#usuarios)
+  - [Productos](#productos)  
+  - [Clientes](#clientes) 
+  - [Ordenes](#ordenes) 
   - [Login](#login) 
-  - [Password reset](#password-reset) 
-  - [Update password](#update-password) 
-  - [Auth user](#auth-user) 
+  - [Reinicio de contraseña](#reinicio-de-contraseña) 
+  - [Actualizar contraseña](#actualizar-contraseña) 
+  - [Autenticar usuario](#autenticar-usuario) 
  - [Contáctame](#contáctame)
+
+## Introducción
+
+## Instrucciones de uso
+
+## Roles y permisos
+
+## Peticiones
+
+### Usuarios
+
+### GET ```/users```
+
+### Productos
+
+### Clientes
+
+### Ordenes
+
+### Login
+
+### Reinicio de contraseña
+
+### Actualizar contraseña
+
+### Autenticar usuario
+
+## Contáctame
