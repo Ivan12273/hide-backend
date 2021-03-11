@@ -7,16 +7,15 @@ HIDE es un sistema de software con el propósito de ayudar a las personas involu
 - [Introducción](#introducción)
 - [Instrucciones de uso](#instrucciones-de-uso)
 - [Roles y permisos](#roles-y-permisos)
-- [Peticiones](#peticiones)
-  - [Usuarios](#usuarios)
-  - [Productos](#productos)  
-  - [Clientes](#clientes) 
-  - [Ordenes](#ordenes) 
-  - [Login](#login) 
-  - [Reinicio de contraseña](#reinicio-de-contraseña) 
-  - [Actualizar contraseña](#actualizar-contraseña) 
-  - [Autenticar usuario](#autenticar-usuario) 
- - [Contáctame](#contáctame)
+- [Usuarios](#usuarios)
+- [Productos](#productos)  
+- [Clientes](#clientes) 
+- [Ordenes](#ordenes) 
+- [Login](#login) 
+- [Reinicio de contraseña](#reinicio-de-contraseña) 
+- [Actualizar contraseña](#actualizar-contraseña) 
+- [Autenticar usuario](#autenticar-usuario) 
+- [Contáctame](#contáctame)
 
 ## Introducción
 
@@ -24,24 +23,22 @@ HIDE es un sistema de software con el propósito de ayudar a las personas involu
 
 ## Roles y permisos
 
-## Peticiones
-
-### **Usuarios**
+## Usuarios
 
 ### GET ```/users```
 
-### Productos
+## Productos
 
-### Clientes
+## Clientes
 
-### Ordenes
+## Ordenes
 
-### Login
+## Login
 
-### Reinicio de contraseña
+## Reinicio de contraseña
 
-### Actualizar contraseña
+## Actualizar contraseña
 
-### Autenticar usuario
+## Autenticar usuario
 
 ## Contáctame
