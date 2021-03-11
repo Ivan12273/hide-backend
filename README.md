@@ -25,20 +25,70 @@ HIDE es un sistema de software con el propósito de ayudar a las personas involu
 
 ## Usuarios
 
+### POST ```/user```
+
 ### GET ```/users```
+
+### GET ```/user/:user_id```
+
+### PUT ```/user/:user_id```
+
+### DELETE ```/user/:user_id```
 
 ## Productos
 
+### POST ```/product```
+
+### GET ```/products```
+
+### GET ```/product/:product_id```
+
+### PUT ```/product/:product_id```
+
+### DELETE ```/product/:product_id```
+
 ## Clientes
+
+### POST ```/client```
+
+### GET ```/clients```
+
+### GET ```/client/:client_id```
+
+### PUT ```/client/:client_id```
+
+### DELETE ```/client/:client_id```
 
 ## Ordenes
 
+### POST ```/order```
+
+### GET ```/orders```
+
+### GET ```/order/:order_id```
+
+### GET ```/order-history```
+
+### GET ```/order-history-pdf```
+
+### PUT ```/order/:order_id```
+
+### DELETE ```/order/:order_id```
+
 ## Login
+
+### POST ```/login```
 
 ## Reinicio de contraseña
 
+### POST ```/reset-password```
+
 ## Actualizar contraseña
 
+### POST ```/update-password```
+
 ## Autenticar usuario
+
+### GET ```/auth-user```
 
 ## Contáctame
