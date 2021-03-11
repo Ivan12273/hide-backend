@@ -26,7 +26,7 @@ HIDE es un sistema de software con el propósito de ayudar a las personas involu
 
 ## Peticiones
 
-### Usuarios
+### **Usuarios**
 
 ### GET ```/users```
 
