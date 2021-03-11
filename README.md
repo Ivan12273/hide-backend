@@ -7,6 +7,7 @@ HIDE es un sistema de software con el propósito de ayudar a las personas involu
 - [Introducción](#introducción)
 - [Instrucciones de uso](#instrucciones-de-uso)
 - [Roles y permisos](#roles-y-permisos)
+- [Base de datos](#base-de-datos)
 - [Usuarios](#usuarios)
 - [Productos](#productos)  
 - [Clientes](#clientes) 
@@ -22,6 +23,8 @@ HIDE es un sistema de software con el propósito de ayudar a las personas involu
 ## Instrucciones de uso
 
 ## Roles y permisos
+
+## Base de datos
 
 ## Usuarios
 
