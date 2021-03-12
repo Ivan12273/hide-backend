@@ -30,6 +30,30 @@ HIDE es un sistema de software con el propósito de ayudar a las personas involu
 
 ### POST ```/user```
 
+#### Descripción
+Agrega un usuario al sistema, creando un registro de su nombre, función, fecha de nacimiento y contraseña.
+
+#### Privilegios
+El usuario necesita un token de autorización.
+
+#### Parámetros
+| Parámetro | Tipo   | Descripción |
+| ------ |---------| :------|
+| ```role``` | string | Rol del usuario. |
+| ```name```  | string | Nombre del usuario. |
+| ```birthday``` | string | Cumpleaños del usuario. |
+| ```email``` | string | Correo del usuario. |
+| ```password``` | string | Contraseña del usuario. |
+
+#### Regresa
+| Parámetro | Tipo   | Descripción |
+| ------ |---------| :------|
+| ```role``` | string | Rol del usuario. |
+| ```name```  | string | Nombre del usuario. |
+| ```birthday``` | string | Cumpleaños del usuario. |
+| ```email``` | string | Correo del usuario. |
+| ```password``` | string | Contraseña del usuario. |
+
 ### GET ```/users```
 
 ### GET ```/user/:user_id```
