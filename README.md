@@ -256,12 +256,18 @@ Registra un nuevo producto, debe proporcionar una descripción, precio unitario 
 #### Privilegios
 El usuario necesita un token de autorización.
 
-#### Parámetros
-| Parámetro | Tipo   | Descripción |
-| ------ |---------| :------|
-| ```name``` | string | Nombre del producto. |
-| ```phone```  | array de numeros | Descripción del producto. |
-| ```location``` | array de objetos | Cantidad disponible del producto. |
+#### Parametros
+    '{
+      "name": "string",
+      "phone": [number],
+      "location": [
+          {
+              "address": "string",
+              "addressDescription": "string",
+              "coordinates": "string"
+          }
+      ]
+    }'
 
 #### Regresa
 | Parámetro | Tipo   | Descripción |
