@@ -66,6 +66,8 @@ El usuario necesita un token de autorización.
 Ninguno.
 
 #### Regresa
+Todos los usuarios.
+
 | Parámetro | Tipo   | Descripción |
 | ------ |---------| :------|
 | ```role``` | string | Rol del usuario. |
@@ -144,13 +146,105 @@ Ninguno.
 
 ### POST ```/product```
 
+#### Descripción
+Registra un nuevo producto, debe proporcionar una descripción, precio unitario y stock.
+
+#### Privilegios
+El usuario necesita un token de autorización.
+
+#### Parámetros
+| Parámetro | Tipo   | Descripción |
+| ------ |---------| :------|
+| ```name``` | string | Nombre del producto. |
+| ```Description```  | string | Descripción del producto. |
+| ```stock``` | string | Cantidad disponible del producto. |
+| ```price``` | string | Precio del producto. |
+
+#### Regresa
+| Parámetro | Tipo   | Descripción |
+| ------ |---------| :------|
+| ```name``` | string | Nombre del producto. |
+| ```Description```  | string | Descripción del producto. |
+| ```stock``` | string | Cantidad disponible del producto. |
+| ```price``` | string | Precio del producto. |
+
 ### GET ```/products```
+
+#### Descripción
+Regresa todos los productos del sistema.
+
+#### Privilegios
+El usuario necesita un token de autorización.
+
+#### Parámetros
+Ninguno.
+
+#### Regresa
+Todos los productos.
+
+| Parámetro | Tipo   | Descripción |
+| ------ |---------| :------|
+| ```name``` | string | Nombre del producto. |
+| ```Description```  | string | Descripción del producto. |
+| ```stock``` | string | Cantidad disponible del producto. |
+| ```price``` | string | Precio del producto. |
 
 ### GET ```/product/:product_id```
 
+#### Descripción
+Obtiene los datos específicos de un producto.
+
+#### Privilegios
+El usuario necesita un token de autorización.
+
+#### Parámetros
+Ninguno.
+
+#### Regresa
+| Parámetro | Tipo   | Descripción |
+| ------ |---------| :------|
+| ```name``` | string | Nombre del producto. |
+| ```Description```  | string | Descripción del producto. |
+| ```stock``` | string | Cantidad disponible del producto. |
+| ```price``` | string | Precio del producto. |
+
 ### PUT ```/product/:product_id```
 
+#### Descripción
+Actualiza la información de un producto del sistema HIDE.
+
+#### Privilegios
+El usuario necesita un token de autorización.
+
+#### Parámetros
+Ninguno.
+
+#### Regresa
+| Parámetro | Tipo   | Descripción |
+| ------ |---------| :------|
+| ```name``` | string | Nombre del producto. |
+| ```Description```  | string | Descripción del producto. |
+| ```stock``` | string | Cantidad disponible del producto. |
+| ```price``` | string | Precio del producto. |
+
 ### DELETE ```/product/:product_id```
+
+#### Descripción
+Elimina un producto del sistema.
+
+#### Privilegios
+El usuario necesita un token de autorización.
+
+#### Parámetros
+Ninguno.
+
+#### Regresa
+| Parámetro | Tipo   | Descripción |
+| ------ |---------| :------|
+| ```name``` | string | Nombre del producto. |
+| ```Description```  | string | Descripción del producto. |
+| ```stock``` | string | Cantidad disponible del producto. |
+| ```price``` | string | Precio del producto. |
 
 ## Clientes
 
