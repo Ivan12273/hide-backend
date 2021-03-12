@@ -56,11 +56,89 @@ El usuario necesita un token de autorización.
 
 ### GET ```/users```
 
+#### Descripción
+Obtiene la lista de todos los usuarios del sistema HIDE.
+
+#### Privilegios
+El usuario necesita un token de autorización.
+
+#### Parámetros
+Ninguno.
+
+#### Regresa
+| Parámetro | Tipo   | Descripción |
+| ------ |---------| :------|
+| ```role``` | string | Rol del usuario. |
+| ```name```  | string | Nombre del usuario. |
+| ```birthday``` | string | Cumpleaños del usuario. |
+| ```email``` | string | Correo del usuario. |
+| ```password``` | string | Contraseña del usuario. |
+
 ### GET ```/user/:user_id```
+
+#### Descripción
+Obtiene los datos específicos de un usuario del sistema HIDE.
+
+#### Privilegios
+El usuario necesita un token de autorización.
+
+#### Parámetros
+Ninguno.
+
+#### Regresa
+| Parámetro | Tipo   | Descripción |
+| ------ |---------| :------|
+| ```role``` | string | Rol del usuario. |
+| ```name```  | string | Nombre del usuario. |
+| ```birthday``` | string | Cumpleaños del usuario. |
+| ```email``` | string | Correo del usuario. |
+| ```password``` | string | Contraseña del usuario. |
 
 ### PUT ```/user/:user_id```
 
+#### Descripción
+Actualiza la información de un usuario del sistema HIDE.
+
+#### Privilegios
+El usuario necesita un token de autorización.
+
+#### Parámetros
+| Parámetro | Tipo   | Descripción |
+| ------ |---------| :------|
+| ```role``` | string | Rol del usuario. |
+| ```name```  | string | Nombre del usuario. |
+| ```birthday``` | string | Cumpleaños del usuario. |
+| ```email``` | string | Correo del usuario. |
+| ```password``` | string | Contraseña del usuario. |
+
+#### Regresa
+| Parámetro | Tipo   | Descripción |
+| ------ |---------| :------|
+| ```role``` | string | Rol del usuario. |
+| ```name```  | string | Nombre del usuario. |
+| ```birthday``` | string | Cumpleaños del usuario. |
+| ```email``` | string | Correo del usuario. |
+| ```password``` | string | Contraseña del usuario. |
+
 ### DELETE ```/user/:user_id```
+
+#### Descripción
+Elimina a un usuario del sistema.
+
+#### Privilegios
+El usuario necesita un token de autorización.
+
+#### Parámetros
+Ninguno.
+
+#### Regresa
+| Parámetro | Tipo   | Descripción |
+| ------ |---------| :------|
+| ```role``` | string | Rol del usuario. |
+| ```name```  | string | Nombre del usuario. |
+| ```birthday``` | string | Cumpleaños del usuario. |
+| ```email``` | string | Correo del usuario. |
+| ```password``` | string | Contraseña del usuario. |
 
 ## Productos
 
