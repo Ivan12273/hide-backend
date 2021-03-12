@@ -37,22 +37,22 @@ Agrega un usuario al sistema, creando un registro de su nombre, función, fecha 
 El usuario necesita un token de autorización.
 
 #### Parámetros
-| Parámetro | Tipo   | Descripción |
-| ------ |---------| :------|
-| ```role``` | string | Rol del usuario. |
-| ```name```  | string | Nombre del usuario. |
-| ```birthday``` | string | Cumpleaños del usuario. |
-| ```email``` | string | Correo del usuario. |
-| ```password``` | string | Contraseña del usuario. |
+    {
+          "role": string,
+          "name": string,
+          "birthday": string,
+          "email": string,
+          "password": string
+    }
 
 #### Regresa
-| Parámetro | Tipo   | Descripción |
-| ------ |---------| :------|
-| ```role``` | string | Rol del usuario. |
-| ```name```  | string | Nombre del usuario. |
-| ```birthday``` | string | Cumpleaños del usuario. |
-| ```email``` | string | Correo del usuario. |
-| ```password``` | string | Contraseña del usuario. |
+    {
+          "role": string,
+          "name": string,
+          "birthday": string,
+          "email": string,
+          "password": string
+    }
 
 ### GET ```/users```
 
@@ -68,13 +68,13 @@ Ninguno.
 #### Regresa
 Todos los usuarios.
 
-| Parámetro | Tipo   | Descripción |
-| ------ |---------| :------|
-| ```role``` | string | Rol del usuario. |
-| ```name```  | string | Nombre del usuario. |
-| ```birthday``` | string | Cumpleaños del usuario. |
-| ```email``` | string | Correo del usuario. |
-| ```password``` | string | Contraseña del usuario. |
+    {
+          "role": string,
+          "name": string,
+          "birthday": string,
+          "email": string,
+          "password": string
+    }
 
 ### GET ```/user/:user_id```
 
@@ -88,13 +88,13 @@ El usuario necesita un token de autorización.
 Ninguno.
 
 #### Regresa
-| Parámetro | Tipo   | Descripción |
-| ------ |---------| :------|
-| ```role``` | string | Rol del usuario. |
-| ```name```  | string | Nombre del usuario. |
-| ```birthday``` | string | Cumpleaños del usuario. |
-| ```email``` | string | Correo del usuario. |
-| ```password``` | string | Contraseña del usuario. |
+    {
+          "role": string,
+          "name": string,
+          "birthday": string,
+          "email": string,
+          "password": string
+    }
 
 ### PUT ```/user/:user_id```
 
@@ -105,22 +105,22 @@ Actualiza la información de un usuario del sistema HIDE.
 El usuario necesita un token de autorización.
 
 #### Parámetros
-| Parámetro | Tipo   | Descripción |
-| ------ |---------| :------|
-| ```role``` | string | Rol del usuario. |
-| ```name```  | string | Nombre del usuario. |
-| ```birthday``` | string | Cumpleaños del usuario. |
-| ```email``` | string | Correo del usuario. |
-| ```password``` | string | Contraseña del usuario. |
+    {
+          "role": string, (opcional)
+          "name": string, (opcional)
+          "birthday": string, (opcional)
+          "email": string, (opcional)
+          "password": string (opcional)
+    }
 
 #### Regresa
-| Parámetro | Tipo   | Descripción |
-| ------ |---------| :------|
-| ```role``` | string | Rol del usuario. |
-| ```name```  | string | Nombre del usuario. |
-| ```birthday``` | string | Cumpleaños del usuario. |
-| ```email``` | string | Correo del usuario. |
-| ```password``` | string | Contraseña del usuario. |
+    {
+          "role": string,
+          "name": string,
+          "birthday": string,
+          "email": string,
+          "password": string
+    }
 
 ### DELETE ```/user/:user_id```
 
@@ -134,13 +134,13 @@ El usuario necesita un token de autorización.
 Ninguno.
 
 #### Regresa
-| Parámetro | Tipo   | Descripción |
-| ------ |---------| :------|
-| ```role``` | string | Rol del usuario. |
-| ```name```  | string | Nombre del usuario. |
-| ```birthday``` | string | Cumpleaños del usuario. |
-| ```email``` | string | Correo del usuario. |
-| ```password``` | string | Contraseña del usuario. |
+    {
+          "role": string,
+          "name": string,
+          "birthday": string,
+          "email": string,
+          "password": string
+    }
 
 ## Productos
 
@@ -153,20 +153,20 @@ Registra un nuevo producto, debe proporcionar una descripción, precio unitario 
 El usuario necesita un token de autorización.
 
 #### Parámetros
-| Parámetro | Tipo   | Descripción |
-| ------ |---------| :------|
-| ```name``` | string | Nombre del producto. |
-| ```Description```  | string | Descripción del producto. |
-| ```stock``` | number | Cantidad disponible del producto. |
-| ```price``` | number | Precio del producto. |
+    {
+          "name": string,
+          "description": [number],
+          "stock": number,
+          "price": number
+    }
 
 #### Regresa
-| Parámetro | Tipo   | Descripción |
-| ------ |---------| :------|
-| ```name``` | string | Nombre del producto. |
-| ```Description```  | string | Descripción del producto. |
-| ```stock``` | number | Cantidad disponible del producto. |
-| ```price``` | number | Precio del producto. |
+    {
+          "name": string,
+          "description": [number],
+          "stock": number,
+          "price": number
+    }
 
 ### GET ```/products```
 
@@ -182,12 +182,12 @@ Ninguno.
 #### Regresa
 Todos los productos.
 
-| Parámetro | Tipo   | Descripción |
-| ------ |---------| :------|
-| ```name``` | string | Nombre del producto. |
-| ```Description```  | string | Descripción del producto. |
-| ```stock``` | number | Cantidad disponible del producto. |
-| ```price``` | number | Precio del producto. |
+    {
+          "name": string,
+          "description": [number],
+          "stock": number,
+          "price": number
+    }
 
 ### GET ```/product/:product_id```
 
@@ -201,12 +201,12 @@ El usuario necesita un token de autorización.
 Ninguno.
 
 #### Regresa
-| Parámetro | Tipo   | Descripción |
-| ------ |---------| :------|
-| ```name``` | string | Nombre del producto. |
-| ```Description```  | string | Descripción del producto. |
-| ```stock``` | number | Cantidad disponible del producto. |
-| ```price``` | number | Precio del producto. |
+    {
+          "name": string,
+          "description": [number],
+          "stock": number,
+          "price": number
+    }
 
 ### PUT ```/product/:product_id```
 
@@ -217,15 +217,20 @@ Actualiza la información de un producto del sistema HIDE.
 El usuario necesita un token de autorización.
 
 #### Parámetros
-Ninguno.
+    {
+          "name": string, (opcional)
+          "description": [number], (opcional)
+          "stock": number, (opcional)
+          "price": number (opcional)
+    }
 
 #### Regresa
-| Parámetro | Tipo   | Descripción |
-| ------ |---------| :------|
-| ```name``` | string | Nombre del producto. |
-| ```Description```  | string | Descripción del producto. |
-| ```stock``` | number | Cantidad disponible del producto. |
-| ```price``` | number | Precio del producto. |
+    {
+          "name": string,
+          "description": [number],
+          "stock": number,
+          "price": number
+    }
 
 ### DELETE ```/product/:product_id```
 
@@ -239,12 +244,12 @@ El usuario necesita un token de autorización.
 Ninguno.
 
 #### Regresa
-| Parámetro | Tipo   | Descripción |
-| ------ |---------| :------|
-| ```name``` | string | Nombre del producto. |
-| ```Description```  | string | Descripción del producto. |
-| ```stock``` | number | Cantidad disponible del producto. |
-| ```price``` | number | Precio del producto. |
+    {
+          "name": string,
+          "description": [number],
+          "stock": number,
+          "price": number
+    }
 
 ## Clientes
 
@@ -256,26 +261,31 @@ Registra un nuevo producto, debe proporcionar una descripción, precio unitario 
 #### Privilegios
 El usuario necesita un token de autorización.
 
-#### Parametros
-    '{
-      "name": "string",
-      "phone": [number],
-      "location": [
-          {
-              "address": "string",
-              "addressDescription": "string",
-              "coordinates": "string"
-          }
-      ]
-    }'
+#### Parámetros
+    {
+          "name": string,
+          "phone": [number],
+          "location": [
+              {
+                  "address": string,
+                  "addressDescription": string,
+                  "coordinates": string
+              }
+          ]
+    }
 
 #### Regresa
-| Parámetro | Tipo   | Descripción |
-| ------ |---------| :------|
-| ```name``` | string | Nombre del producto. |
-| ```Description```  | string | Descripción del producto. |
-| ```stock``` | number | Cantidad disponible del producto. |
-| ```price``` | number | Precio del producto. |
+    {
+          "name": string,
+          "phone": [number],
+          "location": [
+              {
+                  "address": string,
+                  "addressDescription": string,
+                  "coordinates": string
+              }
+          ]
+    }
 
 ### GET ```/clients```
 
