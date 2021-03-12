@@ -250,6 +250,27 @@ Ninguno.
 
 ### POST ```/client```
 
+#### Descripción
+Registra un nuevo producto, debe proporcionar una descripción, precio unitario y stock.
+
+#### Privilegios
+El usuario necesita un token de autorización.
+
+#### Parámetros
+| Parámetro | Tipo   | Descripción |
+| ------ |---------| :------|
+| ```name``` | string | Nombre del producto. |
+| ```phone```  | array de numeros | Descripción del producto. |
+| ```location``` | array de objetos | Cantidad disponible del producto. |
+
+#### Regresa
+| Parámetro | Tipo   | Descripción |
+| ------ |---------| :------|
+| ```name``` | string | Nombre del producto. |
+| ```Description```  | string | Descripción del producto. |
+| ```stock``` | number | Cantidad disponible del producto. |
+| ```price``` | number | Precio del producto. |
+
 ### GET ```/clients```
 
 ### GET ```/client/:client_id```
