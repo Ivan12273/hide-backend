@@ -157,16 +157,16 @@ El usuario necesita un token de autorización.
 | ------ |---------| :------|
 | ```name``` | string | Nombre del producto. |
 | ```Description```  | string | Descripción del producto. |
-| ```stock``` | string | Cantidad disponible del producto. |
-| ```price``` | string | Precio del producto. |
+| ```stock``` | number | Cantidad disponible del producto. |
+| ```price``` | number | Precio del producto. |
 
 #### Regresa
 | Parámetro | Tipo   | Descripción |
 | ------ |---------| :------|
 | ```name``` | string | Nombre del producto. |
 | ```Description```  | string | Descripción del producto. |
-| ```stock``` | string | Cantidad disponible del producto. |
-| ```price``` | string | Precio del producto. |
+| ```stock``` | number | Cantidad disponible del producto. |
+| ```price``` | number | Precio del producto. |
 
 ### GET ```/products```
 
@@ -186,8 +186,8 @@ Todos los productos.
 | ------ |---------| :------|
 | ```name``` | string | Nombre del producto. |
 | ```Description```  | string | Descripción del producto. |
-| ```stock``` | string | Cantidad disponible del producto. |
-| ```price``` | string | Precio del producto. |
+| ```stock``` | number | Cantidad disponible del producto. |
+| ```price``` | number | Precio del producto. |
 
 ### GET ```/product/:product_id```
 
@@ -205,8 +205,8 @@ Ninguno.
 | ------ |---------| :------|
 | ```name``` | string | Nombre del producto. |
 | ```Description```  | string | Descripción del producto. |
-| ```stock``` | string | Cantidad disponible del producto. |
-| ```price``` | string | Precio del producto. |
+| ```stock``` | number | Cantidad disponible del producto. |
+| ```price``` | number | Precio del producto. |
 
 ### PUT ```/product/:product_id```
 
@@ -224,8 +224,8 @@ Ninguno.
 | ------ |---------| :------|
 | ```name``` | string | Nombre del producto. |
 | ```Description```  | string | Descripción del producto. |
-| ```stock``` | string | Cantidad disponible del producto. |
-| ```price``` | string | Precio del producto. |
+| ```stock``` | number | Cantidad disponible del producto. |
+| ```price``` | number | Precio del producto. |
 
 ### DELETE ```/product/:product_id```
 
@@ -243,8 +243,8 @@ Ninguno.
 | ------ |---------| :------|
 | ```name``` | string | Nombre del producto. |
 | ```Description```  | string | Descripción del producto. |
-| ```stock``` | string | Cantidad disponible del producto. |
-| ```price``` | string | Precio del producto. |
+| ```stock``` | number | Cantidad disponible del producto. |
+| ```price``` | number | Precio del producto. |
 
 ## Clientes
 
