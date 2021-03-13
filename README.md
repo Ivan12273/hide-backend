@@ -670,16 +670,13 @@ Ninguno.
 ### GET ```/auth-user```
 
 #### Descripción
-Gestiona el inicio de sesión enviando los parámetros de correo y contraseña.
+Verifica si el usuario está autenticado.
 
 #### Privilegios
 Ninguno.
 
 #### Parámetros
-    {
-        "email": string,
-        "password": string,
-    }
+Ninguno.
 
 #### Regresa
     {
