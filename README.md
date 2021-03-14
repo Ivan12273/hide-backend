@@ -29,8 +29,22 @@ Esta aplicación fue desarrollada por Rooster Software, el nombre del sistema "H
 Gracias chicos, por su amistad y su apoyo durante todo mi trayecto universitario.
 
 ## Instrucciones de uso
+Descargue el proyecto y ejecute el comando "npm install" para instalar todas las dependecias utilizadas en este proyecto, para ejecutar la api utilice el comando "npm start".
+La api está configurada para ejecutarse en el puerto 3700.
 
 ## Roles y permisos
+Los roles y permisos de los usuarios se listan a continuación:
+
+| Rol | Función | Acceso a clientes | Acceso a productos | Acceso a usuarios | Acceso a pedidos |
+| ------ |---------| :------|
+| ```Administrador``` | Gestor de usuarios con acceso total a las funcionalidades y datos del sistema para la administración del mismo. | - Crear 
+- Leer 
+- Actualizar 
+- Eliminar | - Crear - Leer - Actualizar - Eliminar | - Crear - Leer - Actualizar - Eliminar | - Crear - Leer - Actualizar - Eliminar |
+| ```Ventas```  | Usuario encargado del área de ventas por pedido o menudeo. |  | | | |
+| ```Repartidor``` | Se encarga de repartir pedidos por la ciudad. |  | | | |
+| ```Existencias o Almacén``` | Encargado del almacén que ingresa producto terminado, surte pedidos de ventas en línea y carga camioneta de menudeo. |  | | | |
+| ```Preparador``` | Transforma materia prima en producto terminado. |  | | | |
 
 ## Base de datos
 
