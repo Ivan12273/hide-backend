@@ -37,14 +37,11 @@ Los roles y permisos de los usuarios se listan a continuación:
 
 | Rol | Función | Acceso a clientes | Acceso a productos | Acceso a usuarios | Acceso a pedidos |
 | ------ |---------|---------|---------|---------| :------ |
-| ```Administrador``` | Gestor de usuarios con acceso total a las funcionalidades y datos del sistema para la administración del mismo. | - Crear 
-- Leer 
-- Actualizar 
-- Eliminar | |  |  |
-| ```Ventas```  | Usuario encargado del área de ventas por pedido o menudeo. |  | | | |
-| ```Repartidor``` | Se encarga de repartir pedidos por la ciudad. |  | | | |
-| ```Existencias o Almacén``` | Encargado del almacén que ingresa producto terminado, surte pedidos de ventas en línea y carga camioneta de menudeo. |  | | | |
-| ```Preparador``` | Transforma materia prima en producto terminado. |  | | | |
+| ```Administrador``` | Gestor de usuarios con acceso total a las funcionalidades y datos del sistema para la administración del mismo. | Crear, leer, actualizar y eliminar. | Crear, leer, actualizar y eliminar. | Crear, leer, actualizar y eliminar. | Crear, leer, actualizar y eliminar. |
+| ```Ventas```  | Usuario encargado del área de ventas por pedido o menudeo. | Crear, leer, actualizar y eliminar. | Leer. | Ninguno. | Crear, leer, actualizar y eliminar. |
+| ```Repartidor``` | Se encarga de repartir pedidos por la ciudad. | Leer. | Ninguno. | Ninguno. | Leer. |
+| ```Existencias o Almacén``` | Encargado del almacén que ingresa producto terminado, surte pedidos de ventas en línea y carga camioneta de menudeo. | Ninguno. | Crear, leer, actualizar y eliminar. | Ninguno. | Leer. |
+| ```Preparador``` | Transforma materia prima en producto terminado. | Ninguno. | Leer. | Ninguno. | Leer y actualizar. |
 
 ## Base de datos
 
