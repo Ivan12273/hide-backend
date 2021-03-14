@@ -37,10 +37,7 @@ Los roles y permisos de los usuarios se listan a continuación:
 
 | Rol | Función | Acceso a clientes | Acceso a productos | Acceso a usuarios | Acceso a pedidos |
 | ------ |---------| :------|
-| ```Administrador``` | Gestor de usuarios con acceso total a las funcionalidades y datos del sistema para la administración del mismo. | - Crear 
-- Leer 
-- Actualizar 
-- Eliminar | - Crear - Leer - Actualizar - Eliminar | - Crear - Leer - Actualizar - Eliminar | - Crear - Leer - Actualizar - Eliminar |
+| ```Administrador``` | Gestor de usuarios con acceso total a las funcionalidades y datos del sistema para la administración del mismo. |  | |  |  |
 | ```Ventas```  | Usuario encargado del área de ventas por pedido o menudeo. |  | | | |
 | ```Repartidor``` | Se encarga de repartir pedidos por la ciudad. |  | | | |
 | ```Existencias o Almacén``` | Encargado del almacén que ingresa producto terminado, surte pedidos de ventas en línea y carga camioneta de menudeo. |  | | | |
