@@ -4,7 +4,7 @@ HIDE es un sistema de software con el propósito de ayudar a las personas involu
 
 ## Tabla de contenidos
 
-- [Introducción](#introducción)
+- [Presentación](#presentación)
 - [Instrucciones de uso](#instrucciones-de-uso)
 - [Roles y permisos](#roles-y-permisos)
 - [Base de datos](#base-de-datos)
@@ -18,7 +18,15 @@ HIDE es un sistema de software con el propósito de ayudar a las personas involu
 - [Autenticar usuario](#autenticar-usuario) 
 - [Contáctame](#contáctame)
 
-## Introducción
+## Presentación
+Esta aplicación fue desarrollada por Rooster Software, el nombre del sistema "HIDE" se debe a la participación de cada uno de los integrantes listados a continuación:
+
+La H por [Héctor Elías Burgos Amaya](https://github.com/Soft-masta)
+La I por [Iván Alberto Aguilar Castillo](https://github.com/Ivan12273)
+La D por [Daniel Alejandro Álvarez Ramírez](https://github.com/Dannyell001)
+La E por [Edwin Román Fajardo Barrera](https://github.com/EdwinFajardoBarrera)
+
+Gracias chicos, por su amistad y su apoyo durante todo mi trayecto universitario.
 
 ## Instrucciones de uso
 
