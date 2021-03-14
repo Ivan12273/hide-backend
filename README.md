@@ -709,4 +709,4 @@ Ninguno.
     }
 
 ## Contáctame
-Si tienes alguna duda con respecto a este proyecto puedes mandarme un email a [ivanalberto.agca@gmail.com](mailto:ivanalberto.agca@gmail.com)
+Si tienes alguna duda con respecto a este proyecto puedes mandarme un mail a esta dirección: [ivanalberto.agca@gmail.com](mailto:ivanalberto.agca@gmail.com)
