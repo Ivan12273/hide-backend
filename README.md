@@ -47,6 +47,7 @@ Los roles y permisos de los usuarios se listan a continuación:
 En el proyecto se añadió una carpeta llamada "base de datos de ejemplo" con el propósito de que pueda visualizarse la estructura con la que se almacenan los datos del sistema, dentro se encuentra un archivo de texto con los accesos de un usuario administrador.
 
 ## Usuarios
+Para el uso de la API es requerido poner de prefijo http://localhost:3700. Por ejemplo: http://localhost:3700/user
 
 ### POST ```/user```
 
