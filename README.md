@@ -707,6 +707,7 @@ Ninguno.
               "birthday": string,
               "email": string,
               "password": string
+         }
     }
 
 ## Contáctame
